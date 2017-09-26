@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@color/green"
+    android:layout_marginBottom="10dp">
+    <TextView
+        android:id="@+id/tv_projectName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:text="项目名称"
+        android:gravity="bottom"/>
+
+    <TextView
+        android:id="@+id/tv_projectBalance"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:text="项目余额"
+        android:gravity="bottom"/>
+
+
+</LinearLayout>

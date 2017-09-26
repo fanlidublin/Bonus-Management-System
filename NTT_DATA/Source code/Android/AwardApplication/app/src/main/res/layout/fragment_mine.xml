@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red_white"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="奖金统计"
+            android:layout_gravity="center"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:background="@drawable/item_more"
+            android:alpha="3"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_exit_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mine_exit_login"
+        android:textSize="17dp"
+        android:background="@color/red_white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>

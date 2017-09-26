@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">工程师的奖金</string>
+    <string name="role_role">角色</string>
+    <string name="action_settings">Settings</string>
+
+    <!--regiserActivity-->
+    <string name="register_username">用户名</string>
+    <string name="registe_passward">密码</string>
+    <string name="register_conform_passward">确认密码</string>
+    <string name="register_register">注册</string>
+
+    <!--homeActivity-->
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="tab_menu_find">首页</string>
+    <string name="tab_menu_weather">金华天气</string>
+    <string name="tab_menu_mine">我的</string>
+
+    <!--findFragment-->
+    <string name="grid_campus">奖金发放</string>
+    <string name="grid_life">奖金支取</string>
+    <string name="grid_play">奖金余额</string>
+    <string name="grid_job">项目PM经费</string>
+    <string name="grid_schedule">待写内容</string>
+    <string name="grid_lostandfind">待写内容</string>
+
+    <!--mineFragment-->
+    <string name="mine_exit_login">退出登录</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@color/yellow"
+    android:alpha="0.5"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/tv_awardName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="奖金名称"
+        android:layout_weight="0.25"
+        android:gravity="bottom"
+        android:textSize="17dp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.5"
+        android:gravity="bottom">
+        <TextView
+            android:id="@+id/tv_awardPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发放类型"
+            android:textSize="17dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tv_awardWiped"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发放类型"
+            android:textSize="17dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_awardTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="发放日期"
+        android:textSize="17dp"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>

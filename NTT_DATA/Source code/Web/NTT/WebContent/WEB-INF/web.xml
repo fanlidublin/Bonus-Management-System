@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  
+  <display-name>SalaryManagement</display-name>
+  <display-name>SalaryManage</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <filter>
+    <filter-name>loginFilter</filter-name>
+    <filter-class>com.ntt.filter.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>loginFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>com.ntt.web.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>blankServlet</servlet-name>
+    <servlet-class>com.ntt.web.BlankServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>blankServlet</servlet-name>
+    <url-pattern>/blank</url-pattern>
+  </servlet-mapping>
+
+  
+  <servlet>
+    <servlet-name>passwordServlet</servlet-name>
+    <servlet-class>com.ntt.web.PasswordServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>passwordServlet</servlet-name>
+    <url-pattern>/password</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>zongZeServlet</servlet-name>
+    <servlet-class>com.ntt.web.zongZeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>zongZeServlet</servlet-name>
+    <url-pattern>/zongZe</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>bonusServlet</servlet-name>
+    <servlet-class>com.ntt.web.BonusNormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bonusServlet</servlet-name>
+    <url-pattern>/bonusNorm</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>zsServlet</servlet-name>
+    <servlet-class>com.ntt.web.ZsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>zsServlet</servlet-name>
+    <url-pattern>/zsXize</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>bpServlet</servlet-name>
+    <servlet-class>com.ntt.web.BpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bpServlet</servlet-name>
+    <url-pattern>/bpXize</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>lxServlet</servlet-name>
+    <servlet-class>com.ntt.web.LxServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>lxServlet</servlet-name>
+    <url-pattern>/lxXize</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>tzServlet</servlet-name>
+    <servlet-class>com.ntt.web.TzServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>tzServlet</servlet-name>
+    <url-pattern>/tzXize</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>appliBonusServlet</servlet-name>
+    <servlet-class>com.ntt.web.AppliBonusServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>appliBonusServlet</servlet-name>
+    <url-pattern>/appliBonus</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>appliBonusServlet2</servlet-name>
+    <servlet-class>com.ntt.web.AppliBonusServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>appliBonusServlet2</servlet-name>
+    <url-pattern>/appliBonus2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>faFangServlet</servlet-name>
+    <servlet-class>com.ntt.web.FaFangServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>faFangServlet</servlet-name>
+    <url-pattern>/faFang</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>zhiQuServlet</servlet-name>
+    <servlet-class>com.ntt.web.ZhiQuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>zhiQuServlet</servlet-name>
+    <url-pattern>/zhiQu</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>baoXiaoServlet</servlet-name>
+    <servlet-class>com.ntt.web.BaoXiaoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>baoXiaoServlet</servlet-name>
+    <url-pattern>/baoXiao</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>yuEServlet</servlet-name>
+    <servlet-class>com.ntt.web.YuEServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>yuEServlet</servlet-name>
+    <url-pattern>/yuE</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>zongZeModifyServlet2</servlet-name>
+    <servlet-class>com.ntt.web.zongZeModifyServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>zongZeModifyServlet2</servlet-name>
+    <url-pattern>/zongZeModify2</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>zongZeModifyServlet</servlet-name>
+    <servlet-class>com.ntt.web.zongZeModifyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>zongZeModifyServlet</servlet-name>
+    <url-pattern>/zongZeModify</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>xiZeModifyServlet2</servlet-name>
+    <servlet-class>com.ntt.web.xiZeModifyServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>xiZeModifyServlet2</servlet-name>
+    <url-pattern>/xiZeModify2</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>xiZeModifyServlet</servlet-name>
+    <servlet-class>com.ntt.web.xiZeModifyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>xiZeModifyServlet</servlet-name>
+    <url-pattern>/xiZeModify</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

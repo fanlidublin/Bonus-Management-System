@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    android:gravity="center_horizontal"
+    android:layout_centerHorizontal="true"
+
+    android:orientation="horizontal"
+    android:id="@+id/picture" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        >
+
+        <ImageButton
+            android:id="@+id/ib_admini"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/id_guanliyuan" />
+
+        <ImageButton
+            android:id="@+id/ib_minister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/id_buzhang" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginTop="2dp">
+
+        <ImageButton
+            android:id="@+id/ib_manager"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/id_jingli" />
+
+        <ImageButton
+            android:id="@+id/ib_ceo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/id_zongcai"
+            android:elevation="0dp" />
+    </LinearLayout>
+
+</LinearLayout>
